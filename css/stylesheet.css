@@ -1,0 +1,162 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    position: relative;
+}
+
+#inner {
+    max-width: 100%;
+    position: relative;
+    width: 50rem;
+    padding: 6rem;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.title img {
+    margin-left: 30px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contact-button {
+    cursor: grab;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-button {
+    position: relative;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    height: 4.5rem;
+    padding: 0 2.25rem;
+    text-transform: uppercase;
+    letter-spacing: 0.35rem;
+    font-size: 1em;
+    font-weight: 400;
+    border-radius: 40px;
+    color: orange;
+    border: 2px solid orange;
+}
+
+.contact-button:hover {
+    color: black;
+    background-color: orange;
+}
+
+.contact-button i {
+    font-size: 20px;
+
+}
+
+.label {
+    margin-left: 10px;
+}
+
+.questions {
+    margin: 70px 40px 0px 40px;
+}
+
+.style1 {
+    text-align: center;
+    margin-left: 50px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    letter-spacing: 0.325rem;
+    font-size: 5.5em;
+    line-height: 1.25;
+    font-weight: 400;
+}
+
+.style2 {
+    text-align: center;
+
+    text-transform: uppercase;
+    color: orange;
+    letter-spacing: 0.35rem;
+    width: calc(100% + 0.35rem);
+    font-size: 0.875em;
+    line-height: 1.75;
+    font-weight: 400;
+}
+
+.style3 {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    line-height: 2;
+    font-weight: 500;
+}
+
+.style4 {
+    text-align: left;
+    color: rgb(189, 189, 189);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    line-height: 2;
+    font-weight: 500;
+}
+
+footer {
+    margin-top: -40px;
+    font-size: 0.75rem;
+}
+
+.contact {
+    margin-top: 80px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 0 80px 0;
+
+}
+
+.contact a {
+    margin-bottom: 10px;
+    position: relative;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    height: 4.5rem;
+    padding: 0 2.25rem;
+    text-transform: uppercase;
+    letter-spacing: 0.35rem;
+    font-weight: 400;
+    border-radius: 50px;
+    color: orange;
+    border: 2px solid orange;
+}
+
+.contact a:hover {
+    color: black;
+    background-color: orange;
+}
+
+.contact a i {
+    font-size: 25px;
+}
+
+.contact a .label {
+    font-size: 25px;
+    margin-left: 10px;
+}
